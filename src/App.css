@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /*  turns 1 rem into 10px (because 100% is 16px by default); */
 }
 
-.App-header {
-  background-color: #282c34;
+.app {
+  background-color: #e9fbf1; /* Lily White */
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-width: 100vw;
+  font-family: Poppins;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main {
+  display: grid;
+  grid-template-columns: 25vw 1fr;
 }

@@ -1,0 +1,23 @@
+.header {
+  height: 25vh;
+  background-color: navajowhite;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+input {
+  width: 30rem;
+  height: 4.5rem;
+  border-radius: 3px 0 0 3px;
+  border: none;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.6rem;
+  font-family: Poppins;
+  color: #305661;
+  outline: none;
+}

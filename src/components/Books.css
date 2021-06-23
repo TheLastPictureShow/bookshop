@@ -1,0 +1,43 @@
+.books {
+  display: grid;
+  grid-template-columns: repeat(2, 35vw);
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.details > * {
+  font-size: 1.6rem;
+  width: 20rem;
+  height: 10rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.price {
+  width: 7rem;
+  background-color: #b8e986;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-to-basket {
+  background-color: #d4e000;
+  width: 17rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}

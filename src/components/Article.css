@@ -1,0 +1,34 @@
+article {
+  height: 25rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.image-1 {
+  background: url(../images/08.jpg);
+  width: 50%;
+  height: 25rem;
+  background-repeat: no-repeat;
+}
+
+.image-2 {
+  background: url(../images/07.jpg);
+  width: 50%;
+  height: 25rem;
+  background-repeat: no-repeat;
+}
+
+.image-3 {
+  background: url(../images/04.jpg);
+  width: 50%;
+  height: 25rem;
+  background-repeat: no-repeat;
+}
+
+.image-4 {
+  background: url(../images/09.jpg);
+  width: 50%;
+  height: 25rem;
+  background-repeat: no-repeat;
+}

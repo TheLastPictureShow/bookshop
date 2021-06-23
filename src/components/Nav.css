@@ -1,0 +1,27 @@
+.nav {
+  width: 25vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.nav h2 {
+  margin-left: 1.2rem;
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+}
+
+.nav > p {
+  margin-left: 1.2rem;
+  font-size: 1.8rem;
+  padding: 1rem;
+  background-color: #e9fbf1; /* Lily White */
+  width: 85%;
+  border-bottom: 1px solid gray;
+}
+
+.nav p:hover {
+  background-color: moccasin;
+}
