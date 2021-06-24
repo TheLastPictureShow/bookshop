@@ -8,9 +8,7 @@ const Header = () => {
     <div className="header">
       <h1>Jamie's Bookshop</h1>
       <input type="search" placeholder="Search" name="" value="" />
-      {book.cost === undefined ? null : (
-        <p>{`You have selected ${book.title}`}</p>
-      )}
+      <p>{book.title}</p>
     </div>
   );
 };
