@@ -1,6 +1,6 @@
 .header {
+  background-color: rgba(184, 233, 134, 0.3);
   height: 25vh;
-  background-color: navajowhite;
   display: flex;
   justify-content: space-around;
   align-items: center;

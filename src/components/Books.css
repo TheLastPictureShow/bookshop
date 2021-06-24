@@ -14,7 +14,7 @@
   font-size: 1.6rem;
   width: 20rem;
   height: 10rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 2rem;
 }
 
@@ -31,13 +31,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.add-to-basket {
-  background-color: #d4e000;
-  width: 17rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 2rem;
 }

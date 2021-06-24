@@ -3,32 +3,28 @@ article {
   margin: 1rem;
   display: flex;
   justify-content: flex-start;
+  margin-top: 5rem;
 }
 
-.image-1 {
-  background: url(../images/08.jpg);
-  width: 50%;
-  height: 25rem;
-  background-repeat: no-repeat;
+.add-to-basket {
+  background-color: #b8e986;
+  width: 17rem;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  border: none;
+  outline: none;
+  font-family: Poppins;
 }
 
-.image-2 {
-  background: url(../images/07.jpg);
-  width: 50%;
-  height: 25rem;
-  background-repeat: no-repeat;
+.add-to-basket:hover {
+  background-color: #d4e000;
+  cursor: pointer;
 }
 
-.image-3 {
-  background: url(../images/04.jpg);
-  width: 50%;
-  height: 25rem;
-  background-repeat: no-repeat;
-}
-
-.image-4 {
-  background: url(../images/09.jpg);
-  width: 50%;
-  height: 25rem;
-  background-repeat: no-repeat;
+.add-to-basket:active {
+  border: none;
+  transform: translateY(3px);
 }

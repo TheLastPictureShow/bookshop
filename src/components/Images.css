@@ -1,0 +1,45 @@
+.image-1 {
+  background: url(../images/08.jpg);
+}
+
+.image-2 {
+  background: url(../images/07.jpg);
+}
+
+.image-3 {
+  background: url(../images/04.jpg);
+}
+
+.image-4 {
+  background: url(../images/09.jpg);
+}
+
+.image-5 {
+  background: url(../images/12.jpg);
+}
+
+.image-6 {
+  background: url(../images/02.jpg);
+}
+
+.image-7 {
+  background: url(../images/01.jpg);
+}
+
+.image-8 {
+  background: url(../images/05.jpg);
+}
+
+.image-9 {
+  background: url(../images/06.jpg);
+}
+
+.image-10 {
+  background: url(../images/13.jpg);
+}
+
+.wrapper {
+  width: 50%;
+  height: 25rem;
+  background-repeat: no-repeat;
+}

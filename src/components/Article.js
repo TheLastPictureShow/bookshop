@@ -1,19 +1,20 @@
 import "./Article.css";
+import "./Images.css";
 
 const Article = ({ image, price, title }) => {
   return (
     <article>
-      <div className={`${image}`}></div>
+      <div className={`wrapper ${image}`}></div>
       <div className="details">
         <div className="price">
-          <p>{`${price}`}</p>
+          <p>{price}</p>
         </div>
         <div className="title">
-          <p>{`${title}`}</p>
+          <p>{title}</p>
         </div>
-        <p className="add-to-basket">
+        <button className="add-to-basket">
           <p>Add to Basket</p>
-        </p>
+        </button>
       </div>
     </article>
   );
