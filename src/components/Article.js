@@ -1,7 +1,7 @@
 import "./Article.css";
 import "./Images.css";
 
-const Article = ({ image, price, title }) => {
+const Article = ({ image, price, title, cost, addToCart }) => {
   return (
     <article>
       <div className={`wrapper ${image}`}></div>
@@ -12,8 +12,8 @@ const Article = ({ image, price, title }) => {
         <div className="title">
           <p>{title}</p>
         </div>
-        <button className="add-to-basket">
-          <p>Add to Basket</p>
+        <button className="add-to-basket" onClick={addToCart}>
+          <p>Add to Cart</p>
         </button>
       </div>
     </article>
