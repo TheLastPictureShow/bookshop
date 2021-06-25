@@ -1,5 +1,6 @@
 import "./Article.css";
 import "./Images.css";
+import { BiBasket } from "react-icons/bi";
 
 const Article = ({ image, price, title, cost, addToCart }) => {
   return (
@@ -14,6 +15,7 @@ const Article = ({ image, price, title, cost, addToCart }) => {
         </div>
         <button className="add-to-basket" onClick={addToCart}>
           <p>Add to Cart</p>
+          <BiBasket />
         </button>
       </div>
     </article>

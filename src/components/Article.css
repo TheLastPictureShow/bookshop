@@ -19,6 +19,10 @@ article {
   font-family: Poppins;
 }
 
+.add-to-basket p {
+  margin-right: 1rem;
+}
+
 .add-to-basket:hover {
   background-color: #d4e000;
   cursor: pointer;
